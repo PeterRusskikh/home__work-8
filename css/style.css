@@ -1,0 +1,216 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	font-family: Oswald;
+	font-family: Open Sans;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+._container {
+	max-width: 1130px;
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+.header {
+	background-color: #F5F7FF;	
+}
+/*-----------header__nav------------------------------*/
+/*-----------header__nav-----------------------------*/
+.header__nav {
+	display: flex;
+	align-items: center;
+	padding-top: 28px;
+	
+}
+/*-----------nav__menu------------------------------*/
+.nav__menu ul {
+	display: flex;
+	margin-left: 56px;
+}
+.nav__menu ul li {
+	margin-right: 26px;
+}
+.nav__menu ul li:last-child {
+	margin-right: 0px;
+}
+.nav__menu ul li a {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 2%;
+	font-weight: 400;
+	
+	color: #272323;
+}
+
+
+/*-----------nav__search-----------------------------*/
+.nav__search {
+	display: flex;
+	margin-left: 62px;
+	align-items: center;
+	position: relative;
+	display:flex;
+	justify-content:flex-end;
+}
+.nav__input input {
+	font-size: 14px;
+	letter-spacing: 2%;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	padding: 8px 0px;
+	padding-left: 19px;
+	padding-right: 123px;
+	border-radius: 50px;
+}
+.nav__search-glass {
+	width: 28px;
+	height: 28px;
+	background-color: rgba(192, 194, 248, 0.22);
+	border-radius: 50%;
+	position: absolute;
+	margin-right: 6px;
+	
+}
+.nav__search-glass img {
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}
+/*-----------nav__login-----------------------------*/
+.nav__login {
+	margin-left: 26px;
+	display: flex;
+	column-gap: 5px;
+}
+.nav__login > *{
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+}
+
+/*-----------header__contant----------------------------*/
+.header__contant {
+	display: flex;
+	margin-top: 56px;
+}
+.header__contant-info {
+	margin-top: 69px;
+}
+.header__contant-info h1{
+	font-size: 45px;
+	letter-spacing: 0.07em;
+	font-weight: 400;
+	color: #353434;
+	font-family: Prompt;
+	line-height: 55px;
+	
+}
+.header__contant-info h1 span {
+	color: #FF5C00;
+}
+.header__contant-info p {
+	font-size: 14px;
+	letter-spacing: 0.02em;
+	line-height: 24px;
+	font-weight: 400;
+	color: #A8A8A8;
+	margin-top: 18px;
+	font-style: normal;
+	min-width: 543px;
+}
+.header__contant-photo {
+	max-width: 568px;
+	max-height: 523px;
+	width: 100%;
+}
+.header__contant-info-watch {
+	margin-top: 30px;
+	display: flex;
+}
+.info-watch-block {
+	display: flex;
+	margin-left: 34px;
+}
+
+.info-watch-btn button {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 00.02em;
+	width: 150px;
+	height: 44px;
+	background-color: #544CAC;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+}
+.info-watch-block-play {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50%;
+}
+.info-watch-block-play img {
+	padding: 8px;
+}
+.info-watch-block-text {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	letter-spacing: 00.02em;
+	text-align: center;
+	font-weight: 400;
+}
+
+/*----------main__section-sub-home-----------------------*/
+.main__section-sub-home {
+	margin-top: 32px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*----------main__section-sub-home-----------------------*/
+
